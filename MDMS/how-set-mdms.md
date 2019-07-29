@@ -1,4 +1,4 @@
-# How to: Create and Process Replication
+# How to: Set up MDMS
 ## Master Company Setup
 ### No. Series
 It is necessary to set up 2 numbering series:
@@ -17,11 +17,6 @@ Indicates that current company is Master Company. This enables a number of funct
 When selected, users will not be able to rename any record from synchronized tables.
 5.	**Records per Sync. Message**  
 Number of records send per one message, the smaller the datasets the larger the number can be, 0 will result in default value 300, in case of errors needs to be lowered
-6.	**Import Error Action**  
-Specifies system behavior after importing of new file fails. Available values are:
-•	Continue & Move to Archive: Legacy option. Even though import fails, file will be moved to ARCHIVE folder.
-•	Continue & Keep File: File will not be moved to ARCHIVE and will stay in INBOX. Therefore, system will try to import it again 
-•	Stop & Show Error: Error will be thrown, which will stop processing.
 
 ## User Permission & User Setup
 As part of MDMS module, new permission set has been created: MDMS. It contains all necessary permissions to set up & execute module functions.

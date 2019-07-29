@@ -1,5 +1,6 @@
 # How to: Create a Data Set
 Data Set contains information about structure of data being replicated.
+
 Data Sets can be found under  **MDMS / Data Sets**.
 
 Following fields are available in Data Set header:
@@ -30,6 +31,7 @@ While this field is selected, users will not be able to insert new records in th
 8.	**Disable Local Delete**  
 While this field is selected, users will not be able to delete records in their local database
 9.	**Block Exclude Filter**  
+
 Specify a filter (using C/AL SETVIEW syntax) to exclude certain records from blocking rules.
 Example filters:
 •	Cross-Reference Type=FILTER(<>Bar Code)
