@@ -48,18 +48,24 @@ Receiver is a company that will receive data sent from Master Company.
 To set up a receiver, Receiver Card needs to be opened from MDMS / Receivers.
 Following fields need to be set up:
 1.	No.
+
     Receiver No.
 2.	Description
+
     Receiver Description
+
 3.	Language Code
     Language Code
 4.	WebServices Address
+
     Paste copied url here, but ending after the company name and before the word codeunit. For example:
 http://SERVER:7047/INSTANCE/WS/Receiver/Codeunit/ReceiverWS should be:
 http://SERVER:7047/INSTANCE/WS/Receiver
 5.	ReceiverWS Codeunit Name and Record Synchronization Codeunit name
+
     Service Names given to those two codeunits on Web Services Page 
 6.	WebServices Username and Password
+
     Credentials needed to log on the remote webservices
 
 [Back](master-data-management-system-mdms.md)
