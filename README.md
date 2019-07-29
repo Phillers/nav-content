@@ -1,5 +1,5 @@
 # nav-content
-Welcome to the repository for the application help content for Dynamics NAV! Dynamics NAV is aimed at small and midsized businesses, and this repo gives you access to the source files that are used to build the application help that is shipped as part of the Help Server with Dynamics NAV. This repo enables you to take the Dynamics NAV help and customize it to suit your application. It also provides a way for you to actively contribute to the current Dynamics NAV content.
+XDDDD Welcome to the repository for the application help content for Dynamics NAV! Dynamics NAV is aimed at small and midsized businesses, and this repo gives you access to the source files that are used to build the application help that is shipped as part of the Help Server with Dynamics NAV. This repo enables you to take the Dynamics NAV help and customize it to suit your application. It also provides a way for you to actively contribute to the current Dynamics NAV content.
 
 The content is available as markdown files (.md), where each file represents an article in the help. You can edit these markdown files, and then convert them to HTML files for application.
 
