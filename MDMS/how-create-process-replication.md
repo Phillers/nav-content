@@ -47,13 +47,14 @@ User can run replication manually, from **Replication Card** or **Replication Li
 It is possible to set up replication to be run automatically using Dynamics NAV Job Queue module.
 It is necessary to set up **Codeunit no. 20020699 Run Replication (MDMS)** as Object ID to Run.
 In Parameter String, following structure has to be followed:
-- <Replication No.>,<Replication Type>
+- `<Replication No.>,<Replication Type>`
 Where:
-•	Replication No. – contains Replication No. to be run;
-•	Replication Type – specifies replication type, two possible values are: “FULL” and “INCREMENTAL”.
+-	Replication No. – contains Replication No. to be run;
+-	Replication Type – specifies replication type, two possible values are: “FULL” and “INCREMENTAL”.  
 Example Parameter String values are:
-•	R0001,INCREMENTAL
-•	R0025,FULL
+-	R0001,INCREMENTAL
+-	R0025,FULL
+
 Should Parameter String be invalid, Job Queue will fail with appropriate error message.
 ### Full vs Incremental
 Each replication can be run in one of two modes: Full or Incremental. 
